@@ -1,0 +1,11 @@
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -17,7 +17,7 @@ classifiers = [
+ ]
+ urls = {Homepage = "https://codeberg.org/dashea/requests-file"}
+ dependencies = ["requests>=1.0.0"]
+-dynamic = ["version"]
++version = "@VERSION@"
+ 
+ [tool.distutils.bdist_wheel]
+ universal = 1
