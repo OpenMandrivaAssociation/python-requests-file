@@ -1,6 +1,6 @@
 Name:		python-requests-file
 Version:	3.0.1
-Release:	2
+Release:	3
 Source0:	https://files.pythonhosted.org/packages/source/r/requests-file/requests_file-%{version}.tar.gz
 Summary:	File transport adapter for Requests
 URL:		https://pypi.org/project/requests-file/
