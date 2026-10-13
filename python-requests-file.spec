@@ -6,7 +6,10 @@ Summary:	File transport adapter for Requests
 URL:		https://pypi.org/project/requests-file/
 License:	Apache 2.0
 Group:		Development/Python
-BuildRequires:	python
+BuildRequires:	pkgconfig(python3)
+BuildRequires:	python%{pyver}dist(pip)
+BuildRequires:	python%{pyver}dist(wheel)
+BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(requests)
 BuildRequires:	python%{pyver}dist(six)
 
